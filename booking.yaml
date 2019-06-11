@@ -1,0 +1,40 @@
+apiVersion: apps/v1beta1
+
+kind: Deployment
+
+metadata:
+
+  name: bookservicev1
+
+spec:
+
+  replicas: 1
+
+  template:
+
+    metadata:
+
+      labels:
+
+        app: bookservicev1
+
+    spec:
+
+      containers:
+
+      - name: bookservicev1
+
+        image: raviacregistry.azurecr.io/servicerepo:bookingservicev1
+
+        
+
+        
+        ports:
+
+        - containerPort: 8280
+
+          name: bookservicev1
+
+      imagePullSecrets:
+
+      - name: ravisec
