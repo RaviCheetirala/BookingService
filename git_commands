@@ -1,0 +1,103 @@
+    1  git --version
+    2  cd C:\Ravi\code\workspace\SpringCloud\EurekaServer
+    3  pwd
+    4  ls -lrt
+    5  cd Ravi
+    6  cd code
+    7  cd workspace
+    8  ls -lrt
+    9  cd c:cd Ravi
+   10  clear
+   11  git init
+   12  git add README.md
+   13  git commit -m "first commit"
+   14  git remote add origin https://github.com/RaviCheetirala/EurekaServer.git
+   15  git push -u origin master
+   16  git remote add origin https://github.com/RaviCheetirala/EurekaServer.git
+   17  git init
+   18  git commit -m "first commit"
+   19  git remote add origin https://github.com/RaviCheetirala/EurekaServer.git
+   20  git push -u origin master
+   21  git remote add origin https://github.com/RaviCheetirala/EurekaServer.git
+   22  git push -u origin master
+   23  git add *.*
+   24  git commit -m "first commit"
+   25  git add *
+   26  git commit -m "first commit"
+   27  git add *
+   28  git commit -m "first commit"
+   29  git push -u origin master
+   30  git config --global --edit
+   31  git init .
+   32  git add --all
+   33  git commit -m "Base Version of Booking Service Code"
+   34  git push origin master
+   35  git push origin master
+   36  git remote add origin remote https://github.com/RaviCheetirala/microservices.git
+   37  git remote add origin https://github.com/RaviCheetirala/microservices.git
+   38  git remote -v
+   39  git push origin master
+   40  git push origin master
+   41  git config --global http.proxy http://xrca4:Welcome$38@wowproxy.woolworths.com.au:8080
+   42  git push origin master
+   43  git config --global proxy http://xrca4:Welcome$38@wowproxy.woolworths.com.au:8080
+   44  clear
+   45  git config --global https.proxy http://xrca4:Welcome$38@wowproxy.woolworths.com.au:8080
+   46  git push origin master
+   47  git config --global http.sslVerify false
+   48  git push origin master
+   49  git config --global http.sslVerify false
+   50  git config --global https.sslVerify false
+   51  git config --global https.proxy http://xrca4:Welcome$38@wowproxy.woolworths.com.au:8080
+   52  git config --global http.proxy http://xrca4:Welcome$38@wowproxy.woolworths.com.au:8080
+   53  git push origin master
+   54  git config --global http.proxyAuthMethod 'basic'
+   55  git push origin master
+   56  git clone https://github.com/RaviCheetirala/microservices.git
+   57  git config --global --unset http.proxy
+   58  git config --global --unset https.proxy
+   59  git push origin master
+   60  clear
+   61  git config --global https.proxy http://xrca4:Welcome$38@wowproxy.woolworths.com.au:8080
+   62  git config --global http.proxy http://xrca4:Welcome$38@wowproxy.woolworths.com.au:8080
+   63  git push origin master
+   64  git config --global https.proxy http://wowproxy.woolworths.com.au:8080
+   65  git config --global http.proxy http://wowproxy.woolworths.com.au:8080
+   66  git push origin master
+   67  git push origin master
+   68  git config --global unset --all
+   69  git config --global --unset http.proxy
+   70  git config --global --unset ll
+   71  git config --global --unset all
+   72  git config --global --unset https.proxy
+   73  git push origin master
+   74  git remote add origin https://dude-projects@dev.azure.com/dude-projects/woolies-aks-poc/_git/woolies-aks-poc
+   75  git reset --hard origin/master
+   76  git remote -v
+   77  git remote set -url origin https://dude-projects@dev.azure.com/dude-projects/woolies-aks-poc/_git/woolies-aks-poc
+   78  history
+   79  git remote add origin https://dude-projects@dev.azure.com/dude-projects/woolies-aks-poc/_git/woolies-aks-poc
+   80  git remote rm origin
+   81  git remote add origin https://dude-projects@dev.azure.com/dude-projects/woolies-aks-poc/_git/woolies-aks-poc
+   82  git push origin master
+   83  git config --global https.proxy http://storeVisibility:Replenish123@wowproxy.woolworths.com.au:8080
+   84  git config --global http.proxy http://storeVisibility:Replenish123@wowproxy.woolworths.com.au:8080
+   85  git push origin master
+   86  history
+   87  git remote rm origin
+   88  git remote add origin remote https://github.com/RaviCheetirala/microservices.git
+   89  git remote add origin https://github.com/RaviCheetirala/microservices.git
+   90  git push origin master
+   91  git remote rm origin
+   92   git remote add origin https://dude-projects@dev.azure.com/dude-projects/woolies-aks-poc/_git/woolies-aks-poc
+   93  git push origin master
+   94  history
+   95   git commit -m "Jars"
+   96  git push origin master
+   97  git add .
+   98   git commit -m "Jars"
+   99  git push origin master
+  100  git add .
+  101   git commit -m "YAML"
+  102  git push origin master
+  103  history > git_commands
