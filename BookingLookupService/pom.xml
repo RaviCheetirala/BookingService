@@ -1,10 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.0.4.RELEASE</version>
-	</parent>
+	
 	<groupId>com.wow.erc.booking</groupId>
 	<artifactId>BookingLookupService</artifactId>
 	<version>0.0.1</version>
@@ -115,16 +111,16 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<!--	<plugin>
+				<plugin>
                 <groupId>com.google.cloud.tools</groupId>
                 <artifactId>jib-maven-plugin</artifactId>
                 <version>0.9.10</version>
                 <configuration>
                     <to>
-                        <image>318300/servicerepo</image>
+                        <image>docker.io/318300/servicerepo</image>
                     </to>
                 </configuration> 
-            </plugin>-->
+            </plugin>
 		</plugins>
 	</build>
 

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,14 +19,16 @@ import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 
 
+@CrossOrigin
 @RequestMapping("/Booking")
 @Api(value = "BookingController", description = "Used to manage Booking Lookup operations")
 @RestController
+
 public class BookingController {
 	
 	@Autowired
 	private BookingService bookingService;
-	
+	@CrossOrigin
 	@RequestMapping("/getBookingInfo")
 	@ApiOperation(value = "Booking information will be fetched with this service", response = Iterable.class)
 	@ApiResponses(value = { @ApiResponse(code = 200, message = "Successfully retrieved list"),
