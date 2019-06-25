@@ -8,6 +8,7 @@
 	<groupId>com.wow.erc.booking</groupId>
 	<artifactId>BookingLookupService</artifactId>
 	<version>0.0.1</version>
+    <packaging>jar</packaging>
 	<name>BookingLookupService</name>
 	<description>BookingLookupService</description>
 
