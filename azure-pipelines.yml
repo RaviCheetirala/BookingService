@@ -13,7 +13,7 @@ variables:
   imageName: 'bookingapi:$(build.buildId)'
 
 steps:
-- script:    mvn package
+- script: mvn clean install
   workingDirectory: BookingLookupService
   displayName: 'Maven Install'
 ## script: docker build -f Dockerfile -t $(dockerId).azurecr.io/$(dockerId)/$(imageName) .
