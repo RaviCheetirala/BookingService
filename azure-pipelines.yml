@@ -16,10 +16,4 @@ steps:
 - script: mvn clean install
   workingDirectory: BookingLookupService
   displayName: 'Maven Install'
-- script: docker build -f Dockerfile -t $(dockerId).azurecr.io/$(dockerId)/$(imageName) .
-  workingDirectory: BookingLookupService
-  displayName: 'Docker Image Build'
-- script: docker login -u $(dockerId) -p $(pswd) $(dockerId).azurecr.io
-  displayName: 'ACR Login'
-- script: docker push $(dockerId).azurecr.io/$(dockerId)/$(imageName)
-  displayName: 'ACR Image Push'
+
